@@ -55,7 +55,7 @@ $page-color:#deebea;
     background-color: $page-color;
 }
 .page-title{
-    font-size: 40px;
+    font-size: 35px;
     display: block;
     margin: auto;
     text-align: center;
@@ -98,11 +98,17 @@ $page-color:#deebea;
     h1{
         font-size:30px
     }
+    .item{
+        padding-bottom: 10px;
+    }
     
   }
   @media  (max-width:768px){
     h1{
         font-size:30px
+        }
+    .item{
+        padding-bottom: 10px;
     }
     
   }
